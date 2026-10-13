@@ -1,0 +1,12 @@
+streamlit>=1.40,<2.0
+langgraph>=0.2.60
+langchain-core>=0.3.20
+langchain-ollama>=0.2.0
+sqlalchemy>=2.0
+pymysql>=1.1
+python-dotenv>=1.0
+sqlglot>=26.0
+pandas>=2.2
+plotly>=5.24
+scikit-learn>=1.5
+pytest>=8.0
