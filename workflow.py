@@ -196,6 +196,7 @@ All discovered tables: {', '.join(catalog['tables'].keys())}
 All declared foreign keys:
 {catalog.get('relationships', [])}
 Answer clearly and concisely."""
+        
         answer = _content(llm.invoke(prompt))
         trace = list(state.get("trace", []))
         trace.append({"step": "Schema Intelligence Agent", "status": "answered from metadata"})
